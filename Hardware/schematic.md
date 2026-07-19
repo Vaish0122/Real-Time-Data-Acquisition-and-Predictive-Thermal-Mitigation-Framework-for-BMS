@@ -20,7 +20,7 @@ The circuit uses an op-amp buffer to ensure high input impedance and a Zener dio
 ### Simulation Results (Linearity Analysis)
 The simulation confirms a perfectly linear response across the 0V to 30V input range. At a maximum test voltage of **29.45V**, the output is a safe **2.931V**, well within the ESP32 ADC limits.
 
-![LTSpice Graph](graph.jpeg)
+![LTSpice Graph](waveform.jpeg)
 
 ## 3. Circuit Topology Details:
 - **Voltage Divider:** A 10:1 ratio ($R_1=27k\Omega, R_2=3k\Omega$) scales the battery voltage down.
